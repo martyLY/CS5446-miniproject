@@ -1,0 +1,1 @@
+sudo docker run -it --rm -v $PWD:/workspace cs4246/base python __init__.py
