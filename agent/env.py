@@ -17,5 +17,4 @@ def construct_random_lane_env():
                'random_lane_speed': True
             }
     env = gym.make('GridDriving-v0', **config)
-    print(env.actions)
     return env
